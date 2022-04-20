@@ -19,7 +19,7 @@ start_date = '2016-01-01'
 
 rad=st.sidebar.radio("Menu",["Homepage","History of currency","History of currency with Candlesticks","Currency Price Prediction","Custom","About Us"])
 if rad=='Homepage':
-  st.snow()
+  st.balloons()
   image = Image.open("wp3624608.webp")
   st.image(image, caption='Crypto Currency Prediction')
   
