@@ -463,7 +463,9 @@ elif rad == "Custom":
       #       if(j>10):
       #         break
 else:
-  st.snow()
+  with st.spinner('Wait for it...'):
+    time.sleep(5)
+  st.success('Done!')
   progress = st.progress(0)
   for i in range(0,2):
     time.sleep(0.2)
