@@ -463,7 +463,7 @@ elif rad == "Custom":
       #       if(j>10):
       #         break
 else:
-  st.balloons()
+  st.snow()
   progress = st.progress(0)
   for i in range(0,2):
     time.sleep(0.2)
